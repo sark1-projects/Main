@@ -1,4 +1,4 @@
-name: Pull Docker Image and create and upload artifacts inside container
+name: java-maven
 
 on:
   workflow_call:
