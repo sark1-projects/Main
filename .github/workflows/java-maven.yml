@@ -42,5 +42,5 @@ jobs:
         with:
           path: artifact
           key: ${{ github.sha }}
-          retention-days: 90
+          retention-days: 1
       
