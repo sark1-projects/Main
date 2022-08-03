@@ -28,6 +28,7 @@ jobs:
     
       - name: Install dependencies
         run: |
+          echo '${{ inputs.java-version }}'
           apt-get update
           apt install maven -y
           apt-get update
