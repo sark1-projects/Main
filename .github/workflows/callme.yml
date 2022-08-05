@@ -9,4 +9,4 @@ jobs:
     steps:
       - run: |
             echo callme
-            echo $(basename${{github.repository}})
+            echo "$(basename${{github.repository}})"
