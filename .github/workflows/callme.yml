@@ -7,6 +7,6 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-            echo callme
-    
+      - run: echo callme
+              
+      - run: echo "$(basename${{github.repository}})"
