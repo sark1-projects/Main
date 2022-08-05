@@ -10,3 +10,4 @@ jobs:
       - run: echo callme
               
       - run: echo "$(basename ${{github.repository}})"
+      - run: echo ${{github.repository}}
