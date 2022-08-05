@@ -1,8 +1,7 @@
 name: callme
 on:
-  workflow_dispatch:
-    
-  #workflow_call
+  workflow_call:
+  
 jobs:
   one:
     runs-on: ubuntu-latest
@@ -11,3 +10,4 @@ jobs:
               
       - run: echo "$(basename ${{github.repository}})"
       - run: echo ${{github.repository}}
+      
